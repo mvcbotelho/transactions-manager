@@ -117,7 +117,7 @@ class App extends Component {
             </div>
           </div>
         </div>
-        <div>
+        <div className="app">
           <List
             visible={this.state.showList}
             transactions={this.state.transactions}

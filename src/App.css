@@ -6,6 +6,7 @@
 .app {
   margin: 5rem auto;
   padding: 3rem;
+  min-width: 500px;
   max-width: 600px;
   border: 1px solid var(--border-color);
   border-radius: 5px;

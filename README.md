@@ -30,7 +30,7 @@ npm start ou
 yarn start
 ```
 
-## Meta
+## Contato
 
 Marcus Botelho – marcus.itec@gmail.com
 

@@ -16,7 +16,7 @@ const list = props => {
   }
 
   return (
-    <main className="container-list">
+    <main>
       <div className={classes.join(" ")}>
         <h2 className="title">Lista de Transações</h2>
         <dl>
@@ -25,7 +25,7 @@ const list = props => {
             if (date !== new Date(t.date).toLocaleDateString()) {
               date = new Date(t.date).toLocaleDateString();
               printDate = (
-                <dt className={style.date}>
+                <dt className="date">
                   {new Date(t.date).toLocaleDateString()}
                 </dt>
               );

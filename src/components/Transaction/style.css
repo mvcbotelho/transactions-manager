@@ -1,0 +1,36 @@
+.field {
+  padding-bottom: 0.5rem;
+  max-height: 0;
+  text-align: center;
+  overflow: hidden;
+}
+
+.hidden {
+  animation: shrink 1s ease-in-out forwards;
+}
+
+.visible {
+  animation: expand 1s ease-in-out forwards;
+}
+
+.field button:not(:last-child) {
+  margin-right: 2rem;
+}
+
+@keyframes expand {
+  to {
+    max-height: 230px;
+    opacity: 1;
+  }
+}
+
+@keyframes shrink {
+  from {
+    max-height: 230px;
+    opacity: 1;
+  }
+  to {
+    max-height: 0;
+    opacity: 0;
+  }
+}

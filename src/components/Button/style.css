@@ -1,0 +1,19 @@
+.btn {
+  padding: 0.5rem 1rem;
+  margin-top: 20px;
+  background-color: var(--primary-color);
+  color: #fff;
+  font-family: inherit;
+  font-size: 1.4em;
+  letter-spacing: 2px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: var(--shadow);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn:hover,
+.btn:focus {
+  box-shadow: none;
+}
